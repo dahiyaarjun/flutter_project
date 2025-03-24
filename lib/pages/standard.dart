@@ -42,11 +42,16 @@ class standard extends StatefulWidget {
         body: Column(
           children: [
             Container(
+              margin: EdgeInsets.only(
+              // top: MediaQuery.of(context).size.height * 0.2,
+              // bottom: MediaQuery.of(context).size.height * 0.099,
+              // left: MediaQuery.of(context).size.width * 0.015,
+              right: MediaQuery.of(context).size.width * 0.015),
               width: MediaQuery.of(context).size.width * 1,
               height: MediaQuery.of(context).size.height * 0.28,
               child: Lottie.asset('assets/videos/Library.json',
-                  height: MediaQuery.of(context).size.height * 0.4,
-                  width: MediaQuery.of(context).size.width,
+                  // height: MediaQuery.of(context).size.height * 0.5,
+                  // width: MediaQuery.of(context).size.width,
                   // reverse: true,
                   repeat: false,
                   fit: BoxFit.cover),
@@ -63,7 +68,7 @@ class standard extends StatefulWidget {
               decoration: BoxDecoration(   
                color: Colors.blueAccent, 
                border: Border.all( 
-                 color: Colors.grey, 
+                 color: Colors.white, 
                  width: 2.0, 
                ), 
                borderRadius: BorderRadius.circular(10.0), 

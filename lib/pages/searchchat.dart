@@ -133,7 +133,7 @@ class _MyWidgetState extends State<Search> {
                         child: IconButton(
                             onPressed: () {
                               message = _message.text;
-                              _message.clear();
+                              // _message.clear();
 
                               setState(() {});
                             },

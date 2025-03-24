@@ -61,8 +61,8 @@ flutter_icons:
   ios: true
   image_path: "assets/images/book.png"
 
-  assets:
-    - images/
+  # assets:
+  #   - images/
 
   
 
